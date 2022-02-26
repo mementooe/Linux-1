@@ -1,2 +1,2 @@
 # Linux
-Linux fundamentals for DevOps engineer
+Linux fundamentals for DevOps engineers
