@@ -1,4 +1,4 @@
 # Linux
 Linux fundamentals for DevOps engineers
 - KeyShell
-- Alex
+- Where there's a SHELL there's a way...
