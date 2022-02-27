@@ -1,0 +1,13 @@
+[Unit]
+Description=Sample Python program
+After=network.target
+StartLimitIntervalSec=0
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=alex
+ExecStart=/usr/bin/python3 /home/alex/Practice/sampleProgram.py
+
+[Install]
+WantedBy=multi-user.target
