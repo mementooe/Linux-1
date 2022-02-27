@@ -1,0 +1,21 @@
+1. To compile a C program
+	install build-essential package: sudo apt-get install build-essential
+	compile with gcc: gcc sampleProgram.c -o csample 
+	
+2. Run program : 
+	Give execution privileges: chmod +x csample
+	Run: ./csample
+
+3. To run from any location:
+	1. Add location to PATH variable: PATH=$PATH:LOCATION
+		- To persist add it to .bashrc and source it to take effect: source .bashrc
+	2. Create a symlink(Or copy) to /usr/local/bin/: ln -s /LOCATION/csample /usr/local/bin/csample
+
+4. To run a bash program : bash <path>/program.sh OR <path>/program.sh OR cd <path> && ./program.sh
+5. To run a python program : python3 <path>/program.py   # python3 is installed by default in newer distros.
+
+6. To run a program as a service use systemd - service manager 
+	Create a service file and put it in /etc/systemd/system/<name>.service
+	usage: systemctl start/stop/status/restart/enable/disable <name>
+	
+	
